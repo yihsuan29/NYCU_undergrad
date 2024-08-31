@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/09/15 15:27:08.000.590,=C:\Users\yihsu\OneDrive\文件\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2021/09/15 15:27:08.000.949,=C:\Users\yihsu\OneDrive\文件\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2021/09/15 15:28:44.000.714,C:\Users\yihsu\OneDrive\文件\Embarcadero\Studio\Projects\Project1.cbproj=C:\Users\yihsu\OneDrive\文件\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>2021/09/15 15:51:17.000.152,C:\Users\yihsu\OneDrive\文件\Embarcadero\Studio\Projects\Unit1.cpp=C:\Users\yihsu\OneDrive\桌面\資結HW\ex01_sorting\SelectionSort.cpp</Transaction>
+    <Transaction>2021/09/15 15:51:17.000.152,C:\Users\yihsu\OneDrive\文件\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\yihsu\OneDrive\桌面\資結HW\ex01_sorting\SelectionSort.dfm</Transaction>
+    <Transaction>2021/09/15 15:51:17.000.152,C:\Users\yihsu\OneDrive\文件\Embarcadero\Studio\Projects\Unit1.h=C:\Users\yihsu\OneDrive\桌面\資結HW\ex01_sorting\SelectionSort.h</Transaction>
+    <Transaction>2021/09/15 15:55:02.000.764,C:\Users\yihsu\OneDrive\文件\Embarcadero\Studio\Projects\Project1PCH1.h=C:\Users\yihsu\OneDrive\桌面\資結作業\ex01_sorting\Project_SelectionSortPCH1.h</Transaction>
+    <Transaction>2021/09/15 15:55:02.000.812,C:\Users\yihsu\OneDrive\文件\Embarcadero\Studio\Projects\Project1.cbproj=C:\Users\yihsu\OneDrive\桌面\資結作業\ex01_sorting\Project_SelectionSort.cbproj</Transaction>
+    <Transaction>2021/09/15 15:57:08.000.813,C:\Users\yihsu\OneDrive\桌面\資結HW\ex01_sorting\SelectionSort.cpp=C:\Users\yihsu\OneDrive\桌面\資結作業\ex01_sorting\SelectionSort.cpp</Transaction>
+    <Transaction>2021/09/15 15:57:08.000.813,C:\Users\yihsu\OneDrive\桌面\資結HW\ex01_sorting\SelectionSort.dfm=C:\Users\yihsu\OneDrive\桌面\資結作業\ex01_sorting\SelectionSort.dfm</Transaction>
+    <Transaction>2021/09/15 15:57:08.000.813,C:\Users\yihsu\OneDrive\桌面\資結HW\ex01_sorting\SelectionSort.h=C:\Users\yihsu\OneDrive\桌面\資結作業\ex01_sorting\SelectionSort.h</Transaction>
+  </Transactions>
+</BorlandProject>

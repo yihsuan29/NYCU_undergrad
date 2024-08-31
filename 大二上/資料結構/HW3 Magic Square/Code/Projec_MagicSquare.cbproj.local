@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/10/13 08:13:29.000.258,=C:\Users\yihsu\OneDrive\文件\Embarcadero\Studio\Projects\Project2PCH1.h</Transaction>
+    <Transaction>2021/10/13 08:13:29.000.576,=C:\Users\yihsu\OneDrive\文件\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>2021/10/13 08:30:19.000.332,C:\Users\yihsu\OneDrive\文件\Embarcadero\Studio\Projects\Unit2.h=C:\Users\yihsu\OneDrive\桌面\資結作業\HW03_109705001_陳以瑄\MagicSquare.h</Transaction>
+    <Transaction>2021/10/13 08:30:19.000.332,C:\Users\yihsu\OneDrive\文件\Embarcadero\Studio\Projects\Unit2.dfm=C:\Users\yihsu\OneDrive\桌面\資結作業\HW03_109705001_陳以瑄\MagicSquare.dfm</Transaction>
+    <Transaction>2021/10/13 08:30:19.000.332,C:\Users\yihsu\OneDrive\文件\Embarcadero\Studio\Projects\Unit2.cpp=C:\Users\yihsu\OneDrive\桌面\資結作業\HW03_109705001_陳以瑄\MagicSquare.cpp</Transaction>
+    <Transaction>2021/10/13 08:30:25.000.968,C:\Users\yihsu\OneDrive\文件\Embarcadero\Studio\Projects\Project2PCH1.h=C:\Users\yihsu\OneDrive\桌面\資結作業\HW03_109705001_陳以瑄\ProjectMagicSquare.h</Transaction>
+    <Transaction>2021/10/13 08:30:56.000.805,C:\Users\yihsu\OneDrive\文件\Embarcadero\Studio\Projects\Project2.cbproj=C:\Users\yihsu\OneDrive\桌面\資結作業\HW03_109705001_陳以瑄\Projec_MagicSquare.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>

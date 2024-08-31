@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/11/24 09:22:19.000.296,=C:\Users\yihsu\OneDrive\文件\Embarcadero\Studio\Projects\Project2PCH1.h</Transaction>
+    <Transaction>2021/11/24 09:22:19.000.613,=C:\Users\yihsu\OneDrive\文件\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>2021/11/24 09:47:06.000.996,C:\Users\yihsu\OneDrive\文件\Embarcadero\Studio\Projects\Unit2.dfm=C:\Users\yihsu\OneDrive\桌面\資結作業\HW06_109705001_陳以瑄\linked.dfm</Transaction>
+    <Transaction>2021/11/24 09:47:06.000.996,C:\Users\yihsu\OneDrive\文件\Embarcadero\Studio\Projects\Unit2.h=C:\Users\yihsu\OneDrive\桌面\資結作業\HW06_109705001_陳以瑄\linked.h</Transaction>
+    <Transaction>2021/11/24 09:47:06.000.996,C:\Users\yihsu\OneDrive\文件\Embarcadero\Studio\Projects\Unit2.cpp=C:\Users\yihsu\OneDrive\桌面\資結作業\HW06_109705001_陳以瑄\linked.cpp</Transaction>
+    <Transaction>2021/11/24 09:47:21.000.105,C:\Users\yihsu\OneDrive\文件\Embarcadero\Studio\Projects\Project2PCH1.h=C:\Users\yihsu\OneDrive\桌面\資結作業\HW06_109705001_陳以瑄\Projec_Llinked.h</Transaction>
+    <Transaction>2021/11/24 09:47:28.000.416,C:\Users\yihsu\OneDrive\文件\Embarcadero\Studio\Projects\Project2.cbproj=C:\Users\yihsu\OneDrive\桌面\資結作業\HW06_109705001_陳以瑄\Project2_Linked.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>

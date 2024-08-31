@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/11/25 09:59:58.000.873,=C:\Users\yihsu\OneDrive\文件\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>2021/11/25 09:59:58.000.596,=C:\Users\yihsu\OneDrive\文件\Embarcadero\Studio\Projects\Project2PCH1.h</Transaction>
+    <Transaction>2021/12/08 08:35:05.000.357,=C:\Users\yihsu\OneDrive\文件\Embarcadero\Studio\Projects\Project2PCH1.h</Transaction>
+    <Transaction>2021/12/08 08:35:05.000.659,=C:\Users\yihsu\OneDrive\文件\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>2021/12/19 17:11:57.000.232,=C:\Users\yihsu\OneDrive\文件\Embarcadero\Studio\Projects\Project2PCH1.h</Transaction>
+    <Transaction>2021/12/19 17:11:57.000.560,=C:\Users\yihsu\OneDrive\文件\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>2022/01/15 16:38:19.000.477,=C:\Users\yihsu\OneDrive\文件\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>2022/01/15 16:38:19.000.187,=C:\Users\yihsu\OneDrive\文件\Embarcadero\Studio\Projects\Project2PCH1.h</Transaction>
+    <Transaction>2022/01/15 16:52:12.000.377,C:\Users\yihsu\OneDrive\文件\Embarcadero\Studio\Projects\Unit2.h=C:\Users\yihsu\OneDrive\桌面\資結作業\Bonus02_109705001_陳以瑄\KnightTour.h</Transaction>
+    <Transaction>2022/01/15 16:52:12.000.377,C:\Users\yihsu\OneDrive\文件\Embarcadero\Studio\Projects\Unit2.dfm=C:\Users\yihsu\OneDrive\桌面\資結作業\Bonus02_109705001_陳以瑄\KnightTour.dfm</Transaction>
+    <Transaction>2022/01/15 16:52:12.000.377,C:\Users\yihsu\OneDrive\文件\Embarcadero\Studio\Projects\Unit2.cpp=C:\Users\yihsu\OneDrive\桌面\資結作業\Bonus02_109705001_陳以瑄\KnightTour.cpp</Transaction>
+    <Transaction>2022/01/15 16:52:17.000.102,C:\Users\yihsu\OneDrive\文件\Embarcadero\Studio\Projects\Project2PCH1.h=C:\Users\yihsu\OneDrive\桌面\資結作業\Bonus02_109705001_陳以瑄\ProjectKnightTour.h</Transaction>
+    <Transaction>2022/01/15 16:52:22.000.334,C:\Users\yihsu\OneDrive\文件\Embarcadero\Studio\Projects\Project2.cbproj=C:\Users\yihsu\OneDrive\桌面\資結作業\Bonus02_109705001_陳以瑄\Project2KnightTour.cbproj</Transaction>
+    <Transaction>2022/01/16 10:38:07.000.867,=C:\Users\yihsu\OneDrive\桌面\資結作業\Bonus02_109705001_陳以瑄\Unit1.cpp</Transaction>
+    <Transaction>2022/01/16 10:44:14.000.811,C:\Users\yihsu\OneDrive\桌面\資結作業\Bonus02_109705001_陳以瑄\NextNextWindow.h=C:\Users\yihsu\OneDrive\桌面\資結作業\Bonus02_109705001_陳以瑄\Unit1.h</Transaction>
+    <Transaction>2022/01/16 10:44:14.000.811,C:\Users\yihsu\OneDrive\桌面\資結作業\Bonus02_109705001_陳以瑄\NextNextWindow.dfm=C:\Users\yihsu\OneDrive\桌面\資結作業\Bonus02_109705001_陳以瑄\Unit1.dfm</Transaction>
+    <Transaction>2022/01/16 10:44:14.000.811,C:\Users\yihsu\OneDrive\桌面\資結作業\Bonus02_109705001_陳以瑄\NextNextWindow.cpp=C:\Users\yihsu\OneDrive\桌面\資結作業\Bonus02_109705001_陳以瑄\Unit1.cpp</Transaction>
+  </Transactions>
+</BorlandProject>

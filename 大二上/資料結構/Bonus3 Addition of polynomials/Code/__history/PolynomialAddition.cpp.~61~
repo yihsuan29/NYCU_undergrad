@@ -1,0 +1,259 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "PolynomialAddition.h"
+#include<time.h>
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm2 *Form2;
+struct TermNode
+{
+	int co;
+	int exp;
+	struct TermNode * next;
+};
+struct TermNode * NewNode(int c,int e)
+{
+	struct TermNode * node = (struct TermNode * )malloc(sizeof(struct TermNode ));
+	node->co=c;
+	node->exp=e;
+	return node;
+}
+struct TermNode * A,*B,*C;
+int memo1=1;
+int memo2=2;
+//---------------------------------------------------------------------------
+__fastcall TForm2::TForm2(TComponent* Owner)
+	: TForm(Owner)
+{
+	A=NewNode(0,-1);
+	A->next=A;
+	B=NewNode(0,-1);
+	B->next=B;
+	C=NewNode(0,-1);
+	C->next=C;
+}
+//---------------------------------------------------------------------------
+//InsertAfter
+void InsertAfter(struct TermNode * x,int c,int e)
+{
+	if(x->exp==e)
+		x->co=c;
+	else
+	{
+		struct TermNode * y = NewNode(c,e);
+		y->next = x->next;
+		x->next = y;
+    }
+}
+//Clear
+void Clear(struct TermNode * x)
+{
+	struct TermNode * p,*q;
+	p=x;
+	while(p->next!=x)
+	{
+		q=p->next;
+		p->next=q->next;
+        free(q);
+    }
+
+}
+void PrintPoly(struct TermNode * x,int memo)
+{
+	struct TermNode * p;
+	String s="";
+	int flag=1;
+	for(p=x;p->next!=x;p=p->next)
+	{
+		if(p->next->co==0)
+			continue;
+		if(p->next->co>1&&flag==0)
+			s+=" +"+IntToStr(p->next->co);
+		else if(p->next->co==1)
+		{	if(flag==0)
+				s+=" +";
+			if(p->next->exp==0)
+                s+="1";
+        }
+		else if(p->next->co==-1)
+		{
+			if(p->next->exp==0)
+				s+=" -1";
+			else
+				s+=" -";
+		}
+		else
+			s+=" "+IntToStr(p->next->co);
+		if(p->next->exp>1)
+			s+=+"x^"+IntToStr(p->next->exp);
+		else if(p->next->exp==1)
+			s+=+"x";
+
+		flag=0;
+	}
+	if(s=="")
+	{
+		if(x==C)
+			s="NULL";
+		else
+			s="Empty";
+    }
+    if(x==A)
+		s="A: "+s;
+	else if(x==B)
+		s="B: "+s;
+	else
+		s="C: "+s;
+	if(memo==1)
+		Form2->Memo1->Lines->Add(s);
+	else
+		Form2->Memo2->Lines->Add(s);
+}
+
+void __fastcall TForm2::Button1Click(TObject *Sender)
+{
+	int c=StrToInt(Edit1->Text);
+	int e=StrToInt(Edit2->Text);
+	int sign;
+	struct TermNode * p;
+	if(e>=0)
+	{
+		for(p=A;p->next!=A&&e<=p->next->exp;p=p->next);
+		InsertAfter(p,c,e);
+    }
+	PrintPoly(A,memo1);
+	srand(time(NULL));
+	sign= rand()%2;
+	if(sign==0)
+		Edit1->Text=IntToStr(rand()%10);
+	else
+		Edit1->Text="-"+IntToStr(rand()%10);
+    Edit2->Text=IntToStr(rand()%10);
+
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm2::Button2Click(TObject *Sender)
+{
+	int c=StrToInt(Edit1->Text);
+	int e=StrToInt(Edit2->Text);
+    int sign;
+	struct TermNode * p;
+	if(e>=0)
+	{
+		for(p=B;p->next!=B&&e<=p->next->exp;p=p->next);
+		InsertAfter(p,c,e);
+	}
+	PrintPoly(B,memo1);
+    sign= rand()%2;
+	if(sign==0)
+		Edit1->Text=IntToStr(rand()%10);
+	else
+		Edit1->Text="-"+IntToStr(rand()%10);
+    Edit2->Text=IntToStr(rand()%10);
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm2::Button3Click(TObject *Sender)
+{
+	Clear(A);
+	Clear(B);
+	int maxexp=StrToInt(Edit3->Text);
+	int range=StrToInt(Edit4->Text)+1;
+	int max0=StrToInt(Edit5->Text);
+	int i,c,sign;
+	srand(time(NULL));
+	for(i=0;i<maxexp;i++)
+	{
+		do
+		{
+			c=rand()%range;
+			sign=rand()%2;
+			if(sign==0)
+				c=-c;
+		}while(max0==0&&c==0);
+		if(c==0)
+			max0--;
+		else
+			InsertAfter(A,c,i);
+	}
+	max0=StrToInt(Edit5->Text);
+    for(i=0;i<maxexp;i++)
+	{
+		do
+		{
+			c=rand()%range;
+			sign=rand()%2;
+			if(sign==0)
+				c=-c;
+		}while(max0==0&&c==0);
+		if(c==0)
+			max0--;
+		else
+			InsertAfter(B,c,i);
+	}
+	PrintPoly(A,memo1);
+	PrintPoly(B,memo1);
+    Form2->Memo1->Lines->Add("-------------");
+
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm2::Button5Click(TObject *Sender)
+{
+	Clear(A);
+	Clear(B);
+	PrintPoly(A,memo1);
+	PrintPoly(B,memo1);
+}
+//---------------------------------------------------------------------------
+void Addition(struct TermNode * x,struct TermNode * y,struct TermNode * z)
+{
+	Clear(C);
+	int c;
+	struct TermNode * tmp=z;
+	while(x->next->exp!=-1||y->next->exp!=-1)
+	{
+		if(x->next->exp==y->next->exp)
+		{
+			c=x->next->co+y->next->co;
+			InsertAfter(tmp,c,x->next->exp);
+			x=x->next;
+			y=y->next;
+		}
+		else if(x->next->exp>y->next->exp)
+		{
+			InsertAfter(tmp,x->next->co,x->next->exp);
+			x=x->next;
+		}
+		else
+        {
+			InsertAfter(tmp,y->next->co,y->next->exp);
+			y=y->next;
+		}
+		tmp=tmp->next;
+	}
+	PrintPoly(A,memo2);
+	PrintPoly(B,memo2);
+	PrintPoly(C,memo2);
+}
+void __fastcall TForm2::Button4Click(TObject *Sender)
+{
+	Addition(A,B,C);
+    Form2->Memo2->Lines->Add("----------");
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm2::Button6Click(TObject *Sender)
+{
+	Clear(A);
+	Clear(B);
+	Clear(C);
+	PrintPoly(A,memo2);
+	PrintPoly(B,memo2);
+	PrintPoly(C,memo2);
+}
+//---------------------------------------------------------------------------
+
