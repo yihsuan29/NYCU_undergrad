@@ -25,9 +25,9 @@ Visual Design: Ensure a clear color distinction for different categories, and pr
 ## Result
 link: 
 https://vizhub.com/yihsuan29/e79634774ebc482f830f3e27f4785d60
-![image](https://hackmd.io/_uploads/H1sJRpbn0.png)
-![image](https://hackmd.io/_uploads/Bkvg0a-hR.png)
-![image](https://hackmd.io/_uploads/Sk6EApZ2C.png)
+![image](https://github.com/user-attachments/assets/ba4a9fa6-5f22-4ad1-ad5d-453074b0c157)
+![image](https://github.com/user-attachments/assets/23d2cd29-4e16-4c80-9242-1e4f5f8e1d1e)
+
 
 
 

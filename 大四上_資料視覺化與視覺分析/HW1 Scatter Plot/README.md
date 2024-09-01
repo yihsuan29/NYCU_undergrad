@@ -4,5 +4,6 @@ In this homework, your goal is to implement a web-based scatter plot to show the
 
 ## Result
 link: https://vizhub.com/yihsuan29/8a5124c28c7741358bd69c4e892bc250
-![image](https://hackmd.io/_uploads/Hy8Mth-3R.png)
-![image](https://hackmd.io/_uploads/Bk-pt3-hR.png)
+![image](https://github.com/user-attachments/assets/2798340b-a2b5-42e2-8e02-134d22314017)
+
+![image](https://github.com/user-attachments/assets/1a9d193c-da2c-4f59-b842-0acf4126b132)

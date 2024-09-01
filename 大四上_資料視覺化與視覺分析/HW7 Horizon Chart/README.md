@@ -20,12 +20,13 @@ Layout: Organize charts in a grid or another systematic arrangement, ensuring ea
 Interactivity (optional): Add features like tooltips for detailed daily values or zoom capabilities to focus on specific periods.
 
 ## Result
-![image](https://hackmd.io/_uploads/SywfTp-3A.png)
-![image](https://hackmd.io/_uploads/H1S7TTW2C.png)
-![image](https://hackmd.io/_uploads/HkV46aZhA.png)
-![image](https://hackmd.io/_uploads/H1frT6-nR.png)
+![image](https://github.com/user-attachments/assets/5104d347-3979-4e2b-b9e4-e8db3c5cf45c)
 
+![image](https://github.com/user-attachments/assets/0e56e077-2a06-472c-b1d4-a3e332d6c173)
 
+![image](https://github.com/user-attachments/assets/47616ed2-5d3f-41d0-8de0-f63fd8ab8be0)
+
+![image](https://github.com/user-attachments/assets/aebf7d37-3954-4cc3-8d68-b4b499a1144a)
 
 
 

@@ -4,8 +4,9 @@ For this assignment, you are tasked with creating three correlation matrices cor
 
 ## Result
 link: https://vizhub.com/yihsuan29/4ec7a2d51780447ba4ed0e83fd29f9e8
-![image](https://hackmd.io/_uploads/HJyOo3ZnC.png)
-![image](https://hackmd.io/_uploads/Skyti3ZnC.png)
+![image](https://github.com/user-attachments/assets/f3695eab-69bf-4c6c-9232-754952f2158e)
+
+![image](https://github.com/user-attachments/assets/4f8e4971-d923-44ba-aca8-de42da7fd20e)
 
 
 

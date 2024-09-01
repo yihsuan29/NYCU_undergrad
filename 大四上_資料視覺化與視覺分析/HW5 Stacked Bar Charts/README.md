@@ -2,7 +2,7 @@
 ## Objective:
 Craft stacked bar charts to represent the World University Rankings using D3.
 
-## Data Source: https://www.kaggle.com/datasets/ddosad/timesworlduniversityrankings2024
+Data Source: https://www.kaggle.com/datasets/ddosad/timesworlduniversityrankings2024
 
 ## Requirements:
 Direction of Stack: You can choose either a vertical or horizontal stacking style.
@@ -23,9 +23,10 @@ Interactive Features: Implement interactive elements such as tooltips that displ
 Additional Techniques: Feel free to introduce any other design methodologies that can amplify the clarity and aesthetic of the data representation.
 
 ## Result
-![image](https://hackmd.io/_uploads/Sk9OOpWhR.png)
-![image](https://hackmd.io/_uploads/Sk4c_6b30.png)
-![image](https://hackmd.io/_uploads/r13s_aW2R.png)
+![image](https://github.com/user-attachments/assets/41c135ec-5bd3-40ae-8521-a17ba9809d4a)
+![image](https://github.com/user-attachments/assets/28241b97-a2dd-4de5-a96c-54ffc159aed6)
+![image](https://github.com/user-attachments/assets/1b7b7e0c-dec3-4bc1-a214-06a66c1d315a)
+
 
 
 
