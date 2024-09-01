@@ -1,0 +1,139 @@
+body{
+    min-height: 100vh;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+.logo{
+    display: flex;
+    height: 100vh;
+    justify-content: center; 
+    align-items: center; 
+}
+.logo_text{
+    font-size: 80px;
+    font-weight: bolder;
+    margin: auto;
+    position: fixed;
+}
+.login{
+    display: flex;
+    height: 100vh;
+    justify-content: center; 
+    align-items: center; 
+}
+.register{
+    display: none;
+}
+.login_panel{
+    margin: auto;
+    padding: 0;
+}
+.register_panel{
+    margin-top: 110px;
+    padding: 0;
+}
+.btn1{
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    padding: 10px;
+}
+.L_register_btn:hover,.R_login_btn:hover{
+    color: #a4c3c9;
+}
+.L_content,.R_content{
+    padding: 50px;
+}
+.input{
+    font-size: 20px;
+    width: 100%;
+    border: 5px solid #e3bca2;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.btn2{
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    font-weight: bolder;
+}
+.btn2:hover{
+    background-color: #d6e6ed;
+    color: #50545d;
+}
+.R_upload_text{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.R_upload{
+    display: flex;
+    height: max-content;
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 20px;
+}
+.R_load_img{
+    margin: auto;
+    border: dashed 5px #e3bca2;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.R_upload_btn_label{
+    padding: 0;
+    font-size: 80px;
+    text-align: center;
+    align-content: center;
+    height: 100px;
+    width: 100px;
+    border: solid 5px #eccbb4;
+    border-radius: 50%;
+    line-height: 80px;
+}
+.R_photo_container img{
+    width: 100%;
+}
+figcaption{
+    text-align: center;
+    font-size: 20px;
+}
+input[type="file"]{
+    display: none;
+}
+
+
+/*color*/
+/*-----------------------------------------------------------------------------*/
+.background1{
+    background-color: #d6e6ed;
+}
+.background2{
+    background-color: #a4c3c9;
+}
+.background3{
+    background-color: #ffffff;
+}
+.background4{
+    background-color: #eccbb4;
+}
+.background5{
+    background-color: #e3bca2;
+}
+.color1{
+    color: #e3bca2;
+}
+.color2{
+    color: #a4c3c9;
+}
+.color3{
+    color: #ffffff;
+}
+.color4{
+    color: #50545d;
+}

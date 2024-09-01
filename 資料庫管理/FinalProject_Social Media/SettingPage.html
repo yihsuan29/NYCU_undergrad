@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/SettingPage.css" id="css">
+    <title>修改資料</title>
+</head>
+<body >
+    
+    <div class="setting">
+        <form method="post" action="php/Setting.php"> <!--edit-->
+        <div class="col-11 set_panel background8">
+            <div class="row">
+                <div class="col-6">
+                     <!--edit-->
+                     
+                        <div class="S_text color2">修改暱稱</div>
+                        <div class="input-group">
+                            <input type="text" 
+                                class="form-control input" 
+                                placeholder="暱稱"
+                                id="S_name"
+                                name ="S_name"
+                                required>
+                            <div class="input-group-append">
+                                <button type="submit" 
+                                    class="btn2 w-90 S_change_name_btn background2 color3"
+                                    name='S_change_name_btn'
+                                    id='S_change_name_btn'> 修改</button>
+                            </div>
+                        </div> 
+                        <div class="S_text color2">修改密碼</div>
+                        <div class="row">
+                            <div class="col-10">
+                                <input type="password" 
+                                        class="form-control input2" 
+                                        placeholder="舊密碼" 
+                                        id="S_old_password"
+                                        name ="S_old__password"
+                                        required>
+                                <input type="password" 
+                                        class="form-control input2" 
+                                        placeholder="新密碼" 
+                                        id="S_new_password"
+                                        name ="S_new_password"
+                                        required>
+                                <input type="password" 
+                                        class="form-control input" 
+                                        placeholder="確認密碼" 
+                                        id="S_password_check"
+                                        name="S_password_check"
+                                        required>
+                            </div>
+                            <div class="col-2">
+                                <button type="submit" 
+                                    class="btn2 w-90 S_change_password_btn background2 color3"
+                                    name='S_change_password_btn'
+                                    id='S_change_password_btn'> 修改</button>
+                            </div>
+                        </div>
+                        <div class="S_text color2">修改自介</div>
+                        <div class="input-group">
+                            <textarea type="text" 
+                                class="form-control S_bio" 
+                                placeholder="我是..."
+                                id="S_bio"
+                                name ="S_bio"
+                                required></textarea>
+                            <div class="input-group-append">
+                                <button type="submit" 
+                                    class="btn2 w-90 S_bio_btn background2 color3"
+                                    name='S_bio_btn'
+                                    id='S_bio_btn'> 修改</button>
+                            </div>
+                        </div> 
+                             
+                </div> 
+                
+                <div class="col-6">
+                    <div class="S_text color2">修改頭貼</div>
+                    <div class="S_upload row">
+                        <div class="S_load_img background3">
+                            <figure class="S_photo_container">
+                                <img id="S_chosen_photo" src="img/HeadPhoto/kiki.png">
+                                <figcaption class="color2" id="S_photo_file_name"></figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="file" id="S_upload_btn" accept="image/*">
+                        <label for="S_upload_btn" class="S_upload_btn_label background2 color3">上傳新頭貼</label>
+                    </div>
+                    <input type="hidden" id="S_photo_name" name="S_photo_name" value="">  <!--edit-->
+                     <button type="button"
+                            class="w-90 S_exit_btn background2 color3"
+                            name='S_exit_btn'
+                            id='S_exit_btn'> <i class="bi bi-door-open-fill"></i> 回到個人檔案</button>
+                </div>
+               
+            </div>
+        </div>
+        <div class="col deco1 color5">SETTING</div>
+        </form>
+    </div>
+    <!--上傳照片-->
+    <script src="js/SetLoadPhoto.js"></script>
+    <!--些改完成切回個人檔案-->
+    <script src="js/FinishSetting.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   
+</body>
+</html>

@@ -1,0 +1,124 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #ffdcc4;
+    background-image: linear-gradient(90deg, #ffdcc4 0%, #cce4ef 75%);
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+.post_panel{
+    height: 490px;
+    width: 840px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    /*background: rgba(236, 203, 180, 1);*/
+    border-radius: 20px;
+}
+.P_upload_text,.P_post_text{
+    padding:40px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.P_post_text{
+    padding-left: 0;
+}
+.P_upload{
+    display: flex;
+    height: max-content;
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 20px;
+}
+.P_load_img{
+    margin: auto;
+    border: dashed 5px #e3bca2;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.P_upload_btn_label{
+    padding: 0;
+    font-size: 110px;
+    text-align: center;
+    align-content: center;
+    height: 130px;
+    width: 130px;
+    border: solid 5px #eccbb4;
+    border-radius: 50%;
+    line-height: 110px;
+}
+.P_photo_container img{
+    width: 100%;
+}
+figcaption{
+    text-align: center;
+    font-size: 20px;
+}
+input[type="file"]{
+    display: none;
+}
+.P_post_content{
+    font-size: 20px;
+    width: 90%;
+    height: 220px;
+    margin-bottom: 30px;
+    border: 5px solid #e3bca2;
+    border-radius: 5px;
+}
+.btn2{
+    font-size: 20px;
+    width: 90%;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    font-weight: bolder;
+}
+.btn2:hover{
+    background-color: #a4c3c9;
+}
+
+/*color*/
+/*-----------------------------------------------------------------------------*/
+.background1{
+    background-color: #d6e6ed;
+}
+.background2{
+    background-color: #a4c3c9;
+}
+.background3{
+    background-color: #ffffff;
+}
+.background4{
+    background-color: #eccbb4;
+}
+.background5{
+    background-color: #e3bca2;
+}
+.background6{
+    background-color: #50545d5a;
+}
+.background7{
+    background-color: #50545d;
+}
+.background8{
+    background-color: #ffffffb4;
+}
+.color1{
+    color: #e3bca2;
+}
+.color2{
+    color: #a4c3c9;
+}
+.color3{
+    color: #ffffff;
+}
+.color4{
+    color: #50545d;
+}

@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/PersonalHomePage.css" id="css">
+    <title>Lala的個人檔案</title>
+</head>
+<body class="background1">
+    <div class="row main">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <div class="info row">
+                <div class="col-1"></div>
+                <div class="col-3">
+                        <img class="user_photo" src="img/HeadPhoto/lala.png">
+                </div>
+                <div class="col info_content color1">
+                    <div class="user_name">
+                        Lala
+                    </div>
+                    <div class="other_info">  <!--user's bio-->
+                        Little twin star<br>
+                        I have a cute brother
+                    </div>
+                </div>
+                <div class="col-1 info_btn">
+                    <button class= "btn1 row color2" id="go_home_btn" data-toggle="tooltip" data-placement="right" title="首頁" ><i class="bi bi-house-fill"></i></button>
+                    <button class= "btn1 row color2" id="setting_btn" data-toggle="tooltip" data-placement="right" title="設定" ><i class="bi bi-gear-fill"></i></button>
+                    <button class= "btn1 row color2" id="post_btn" data-toggle="tooltip" data-placement="right" title="發文"><i class="bi bi-plus-square-dotted"></i></button> 
+                    <button class= "btn1 row color2" id="logout_btn" data-toggle="tooltip" data-placement="right" title="登出"><i class="bi bi-door-open-fill"></i></i></button> 
+                </div>
+                <div class="col-1"></div>
+            </div>
+            <hr class="deco1">
+            <div class="content "> <!--因為先發的號碼應該比較小，改成了倒序-->
+                <!--如果有新貼文要從這裡插入-->
+                <div class="col post">
+                    <div class="post_num">6</div> <!--貼文號碼-->
+                    <div class="post_content_text">歡樂登場!</div> <!--貼文內容-->
+                    <img class="post_photo" src="img/PostImg/6.jpg">
+                </div>
+                <div class="col post">
+                    <div class="post_num">5</div>
+                    <div class="post_content_text">今天好開心</div>
+                    <img class="post_photo" src="img/PostImg/5.jpg">
+                </div>
+                <div class="col post">
+                    <div class="post_num">4</div>
+                    <div class="post_content_text">我們去賞月</div>
+                    <img class="post_photo" src="img/PostImg/4.jpg">
+                </div>
+                <div class="col post">
+                    <div class="post_num">3</div>
+                    <div class="post_content_text">ho ho ho</div>
+                    <img class="post_photo" src="img/PostImg/3.jpg">
+                </div>
+                <div class="col post">
+                    <div class="post_num">2</div>
+                    <div class="post_content_text">Happy Birthday to us!</div>
+                    <img class="post_photo" src="img/PostImg/2.jpg">
+                </div>
+                <div class="col post">
+                    <div class="post_num">1</div> 
+                    <div class="post_content_text">買買</div>
+                    <img class="post_photo" src="img/PostImg/1.jpg">
+                </div>
+            </div>        
+        </div>
+        <div class="col-2"></div>
+    </div>
+    <div class="see_post">
+        <div class="row pop_post background3 g-0">
+            <div class="col-7">
+                <img class="pop_post_photo" src="img/PostImg/6.jpg">
+            </div>
+            <div class="col-5 pop_post_content">
+                <div class="row">
+                    <div class="col-3">
+                        <img class="pop_user_photo" src="img/HeadPhoto/lala.png">
+                    </div>
+                    <div class="col-1"></div>
+                    <div class="col">
+                        <div class="pop_user_name color1">
+                            Lala <!--user's nickname-->
+                        </div>
+                    </div>
+                    <div class="col-1 pop_edit_btn">
+                        <button class= "btn1 row d-flex justify-content-center color2"><i class="bi bi-three-dots"></i></button>
+                    </div>
+                    <div class="col-1"></div>
+                </div>
+                <hr class="deco1">
+                <div class="row">
+                    <div class="pop_post_num color2"></div>
+                </div>
+                <div class="row pop_post_text_container">
+                    <div class="pop_post_text color4"></div>
+                </div>
+                <div class="row pop_post_edit_container">
+                    <form id="edit_post_form" 
+                        method = "post"
+                        onsubmit="return false"
+                        action="php/edit_post.php">
+                        <input type="hidden" name="edit_post_num" id="edit_post_num"> <!--用來存要編輯的貼文號碼-->
+                        <textarea type="text" 
+                            class="form-control edit_post_text" 
+                            id="edit_post_text"
+                            name ="edit_post_text"
+                            required></textarea>
+                        <div class="input-group-append edit_post_btn_container">
+                            <button type="submit" 
+                                class="btn3 w-90 edit_post_btn background5 color3"
+                                name="edit_post_btn"
+                                id="edit_post_btn"> 編輯完成</button>
+                        </div>
+                    </form>
+                    <form id="del_post_form"
+                        method="post"
+                        onsubmit="return false"
+                        action="php/delete_post.php">
+                        <input type="hidden" name="del_post_num" id="del_post_num">
+                        <button type="submit" 
+                                class="btn4 delete_post_btn background2 color3"
+                                name="delete_post_btn"
+                                id='delete_post_btn'> 刪除貼文</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row exit_btn g-0">
+            <button class= "btn2 row d-flex justify-content-center color3"><i class="bi bi-x-lg"></i></button>   
+        </div>
+    </div>
+    <!--呈現貼文-->
+    <script src="js/SeePost2.js"></script>
+    <!--編輯貼文-->
+    <script src="js/EditPost.js"></script>
+    <!--切換頁面-->
+    <script src="js/PersonalChangePage.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <script 
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" 
+        crossorigin="anonymous"
+        ></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+    <script>
+        /*
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        })
+        */
+        //刪除貼文
+        $("#del_post_form").submit('click',  function(e){
+            Swal.fire({
+                icon: 'question',
+                title: '確定刪除貼文?',
+                showCancelButton: true,
+                confirmButtonText: 'Delete',
+                }).then((result) => {
+                if (result.isConfirmed) {
+                    var params = {
+                        del_post_num: $('#del_post_num').val(),
+                    };
+                    var query = jQuery.param(params);
+                    var form = $(this);
+                    var url = form.attr('action');
+
+                    $.ajax({
+                        type: "POST",
+                        url: url + '?' + query,
+                        data: query,
+                        success: function(data) {
+                            if (data.includes('The post is deleted')) {
+                                Swal.fire({
+                                    icon: 'success',
+                                    title: 'OK',
+                                    text: '已刪除貼文',
+                                    allowOutsideClick: false,
+                                    showCancelButton: false,
+                                });
+                            }
+                        }, 
+                        error: function(data) {
+                            alert(data.message);
+                            Swal.fire({
+                                icon: 'warning',
+                                title: '刪除失敗',
+                                html: query,
+                            });
+                        }
+                    });
+                } else {
+                    Swal.fire('取消刪除', '', 'info')
+                }
+            })
+            e.preventDefault();
+        });
+
+        $("#edit_post_form").submit(function(e) { 
+            var params = {
+                edit_post_num: $('#edit_post_num').val(),
+                edit_post_text: $('#edit_post_text').val(),
+            };
+            var query = jQuery.param(params);
+            var form = $(this);
+            var url = form.attr('action');
+
+            $.ajax({
+                type: "POST",
+                url: url + '?' + query,
+                data: query,
+                success: function(data) {
+                    if (data.includes('Edited successfuly')) {
+                        Swal.fire({
+                            icon: 'success',
+                            title: 'OK',
+                            text: '已編輯貼文',
+                            allowOutsideClick: false,
+                            showCancelButton: false,
+                        });
+                    }
+                }, 
+                error: function(data) {
+
+                    Swal.fire({
+                        icon: 'warning',
+                        title: '編輯貼文失敗',
+                        html: query,
+                    });
+                }
+            });
+            e.preventDefault(); // avoid to execute the actual submit of the form.
+        }); 
+
+    </script>
+   
+</body>
+</html>

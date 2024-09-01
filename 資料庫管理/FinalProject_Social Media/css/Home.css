@@ -1,0 +1,157 @@
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.color1{
+    background-color:rgb(177, 197, 214);
+}
+.color2{
+    background-color: aliceblue;
+}
+.color3{
+    color: rgba(0, 0, 0, 0.763);
+}
+.color4 {
+    color:rgb(44, 61, 108);
+    font-weight: 400;
+}
+.col-7{
+    padding-left:60px;
+    padding-right:15px;
+    padding-top:40px;
+    padding-bottom:40px;
+}
+.post{
+    border-radius: 15px;
+    padding:30px;
+    margin-bottom: 15px;
+    border-bottom: 2px dashed rgb(177, 197, 214);
+    padding-bottom: 30px;
+}
+.post_name {
+    font-size: 22px;
+}
+.post_face img {
+    width:70px;
+    height:70px;
+}
+.post_time_text {
+    color:rgba(0, 0, 0, 0.763);
+    font-size: 14px;
+    margin-top: 15px;
+}
+.post_content {
+    
+    border-radius: 2%;
+    border:0.5px solid rgba(35, 40, 94, 0.163);
+    
+    margin-top: 10px;
+    padding-bottom: 14px;
+}
+.post_text{
+    padding-left:12px; 
+    padding-top:12px; 
+    margin-left: 60px;
+    margin-right: 10px;
+}
+.col-3{
+    padding: 0px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+    border: solid 3px rgb(177, 197, 214);
+}
+
+.post_pic img{
+    border: 0ch;
+    border-radius: 0%;
+    padding-top:12px; 
+    width:350px;
+    height:350px
+  }
+.col-5{
+    padding-left:15px;
+    padding-right:60px;
+    padding-top:40px;
+    padding-bottom:40px;
+}
+.friend{
+    padding:30px;
+    border-radius: 15px;
+}
+.me{
+    border-bottom: 2px dashed rgb(177, 197, 214);
+    padding-bottom: 12px;
+}
+.my_name{
+    padding-top: 20px;
+}
+.fr{
+    border-bottom: 2px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-style: dashed;
+    border-color:rgb(177, 197, 214);
+    padding-bottom: 12px;
+}
+.fr_no {
+    display: none;
+}
+.fr_info{
+    padding-bottom: 20px;
+}
+.fr_title{
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+.fr_name{
+    padding-top: 20px;
+}
+.fr_faceImg {
+    width:70px;
+    height:70px;
+}
+.fr_bu{
+    padding:0px;
+    padding-top: 14px;
+}
+.fr_bu:active {
+    transform: translateY(3px);
+}
+.unfollow_bu{
+    background-color:rgb(235, 166, 169);
+    color:white;
+    min-width: 100px;
+    min-height: 35px;
+}
+.str_info{
+    padding-bottom: 20px;
+}
+.str_title{
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+.str_name{
+    padding-top: 20px;
+}
+.str_faceImg {
+    width:70px;
+    height:70px;
+}
+.str_bu{
+    padding:0px;
+    padding-top: 14px;
+}
+.str_bu:active {
+    transform: translateY(3px);
+}
+.follow_bu{
+    background-color:rgb(95, 147, 154);
+    min-width: 100px;
+    min-height: 35px;
+}
