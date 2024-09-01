@@ -1,0 +1,22 @@
+body {
+  margin: 0px;
+  overflow: hidden;
+}
+
+text {
+	font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  
+}
+
+.item {
+  display: inline-block;
+  align-items: center;
+}
+g text{
+	font-size:0.55em;
+}

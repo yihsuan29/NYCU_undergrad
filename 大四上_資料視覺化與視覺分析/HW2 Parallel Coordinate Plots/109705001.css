@@ -1,0 +1,55 @@
+body {
+  margin: 0px;
+  overflow: hidden;
+}
+
+path{
+  fill: none;
+  opacity: 0.5;
+  stroke-width: 2;
+}
+
+text {
+	font-family: sans-serif;
+}
+
+.tick text {
+  font-size: 1.5em;
+  fill: #8E8883;
+  cursor: pointer;
+}
+
+.label {
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  
+}
+
+.item {
+  display: inline-block;
+}
+
+.line {
+  height: 5px;
+  width: 20px;
+  display: inline-block;
+  margin-right:10px;
+}
+
+#setosa{
+  border: 2px solid #85a3d4;
+  accent-color:#85a3d4;
+}
+#versicolor{
+  border: 2px solid #d485d4;
+  accent-color:#d485d4;
+}
+#virginica{
+  border: 2px solid #edda82;
+  accent-color:#edda82;
+}

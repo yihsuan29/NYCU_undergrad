@@ -1,0 +1,56 @@
+#root {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+text {
+	font-family: sans-serif;
+}
+
+.axis text {
+  font-size: 10px;
+  
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.item {
+  padding: 10px;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column; /* Arrange rows vertically */
+}
+
+.row {
+  display: flex;
+  justify-content: space-between; /* Spread items horizontally */
+  margin-bottom: 10px; /* Add some spacing between rows */
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right:10px;
+}
+
+#setosa{
+   background-color:#85a3d4;
+}
+#versicolor{
+   background-color:#d485d4;
+}
+#virginica{
+   background-color:#edda82;
+}

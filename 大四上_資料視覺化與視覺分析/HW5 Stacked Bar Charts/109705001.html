@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>hw5</title>
+    <link rel="stylesheet" href="109705001.css">
+    <script src="https://unpkg.com/d3@5.6.0/dist/d3.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item1" id="svg">
+      	<h2 class="item"> Top <input type="number" id="head" value = 1 min="1"> to <input type="number" id="tail" value = 20> University</h2>
+      </div>
+      <div class = "item2 container2">
+        <div class="item row" id="LegendMenu"></div>
+        <div class="item" id="ButtonMenu">
+          <text> Sort by:<br></text>
+  					<input type="radio" name="sort" id="all" value="all" checked> Overall<br>
+          	<input type="radio" name="sort" id="tea" value="tea"> Teaching<br>
+          	<input type="radio" name="sort" id="rea" value="rea"> Research<br>
+            <input type="radio" name="sort" id="cit" value="cit"> Citations<br>
+            <input type="radio" name="sort" id="ind" value="ind"> Industry income<br>
+            <input type="radio" name="sort" id="int" value="int"> International<br><br>
+          <text> Sort direction:<br></text>
+  					<input type="radio" name="dir" id="ascend" value="ascend" > Ascending<br>
+          	<input type="radio" name="dir" id="descend" value="descend" checked> Descending<br>
+        </div>
+				<div id="tooltip" class="tooltip"></div>
+      </div>
+    <script src="109705001.js"></script>
+  </body>
+</html>

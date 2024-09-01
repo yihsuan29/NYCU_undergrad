@@ -1,0 +1,53 @@
+body {
+  margin: 0px;
+  overflow: hidden;
+}
+
+path{
+  fill: none;
+  opacity: 0.5;
+  stroke-width: 2;
+}
+
+text {
+	font-family: sans-serif;
+}
+
+.tick text {
+  font-size: 0.8em;
+  fill: #8E8883;
+  cursor: pointer;
+}
+
+.label {
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.item {
+  display: inline-block;
+  //border: solid red;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}  
+
+#setosa{
+   background-color:#85a3d4;
+}
+#versicolor{
+   background-color:#d485d4;
+}
+#virginica{
+   background-color:#edda82;
+}

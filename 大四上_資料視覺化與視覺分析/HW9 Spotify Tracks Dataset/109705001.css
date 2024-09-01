@@ -1,0 +1,77 @@
+body {
+  margin: 0px;
+  overflow: scroll;
+  
+}
+
+#NevigationBar {
+    width: 100vw;
+    background-color: lightblue;
+  	padding-bottom: 10px;
+}
+
+label {
+  display: inline-block;
+  text-align: left;
+  margin-right: 5px;
+}
+
+#L,
+#A{
+  float: left;
+  margin-left: 1px;
+  margin-top:3px;
+}
+#A {
+  clear: both;  
+}
+
+#LRangeDiv,
+#LInitialDiv,
+#LGenreDiv,
+#ARangeDiv,
+#AInitialDiv,
+#AGenreDiv,
+#ASortDiv{
+  float: left;
+  margin-right: 4px;
+  padding:1px;
+  margin-top:3px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+input[type="number"] {
+  font-size: 1em;
+  width: 60px; 
+}
+select {
+  font-size: 1em; 
+}
+
+select option {
+  font-size: 1em; 
+}
+
+#NevigationBar{
+	font-size: 1.5em;
+}
+#BarPlotHead{
+  font-size: 1.3em;
+}
+.tooltip {
+  position: absolute;
+  text-align: left;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  pointer-events: none;
+}
+
+
+
+
+

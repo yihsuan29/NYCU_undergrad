@@ -1,0 +1,46 @@
+body {
+  margin: 0px;
+  overflow: hidden;
+}
+
+text {
+	font-family: sans-serif;
+}
+
+.tick text {
+  font-size: 0.8em;
+  fill: #8E8883;
+}
+
+.label {
+  cursor: grab;
+}
+
+.container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.item {
+  display: inline-block;
+}
+
+#legend {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px;
+}
+
+.legend-item {
+  cursor: grab;
+  margin: 5px;
+}
+#LegendMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}

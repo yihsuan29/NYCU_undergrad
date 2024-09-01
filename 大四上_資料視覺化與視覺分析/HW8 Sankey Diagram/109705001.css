@@ -1,0 +1,39 @@
+body {
+  margin: 0px;
+  overflow: hidden;
+}
+.tooltip {
+  position: absolute;
+  text-align: center;
+  width: auto;
+  height: auto;
+  padding: 5px;
+  font: 12px sans-serif;
+  background: white;
+  border: 0px;
+  pointer-events: none;
+}
+
+.link {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: .1;
+}
+
+.link:hover {
+  stroke-opacity: .3;
+}
+#LgdMenu text{
+  cursor: grab;
+}
+#TextMenu{
+  margin-top:5px;
+  margin-left:10px;
+}
+#TextMenu text {
+  line-height: 1.5;
+}
+
+
+
+

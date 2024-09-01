@@ -1,0 +1,32 @@
+body {
+  margin: 0px;
+  overflow-y: scroll;
+  overflow-x: scroll; 
+}
+
+text {
+	font-family: sans-serif;
+}
+
+.tick text {
+    fill: #8E8883;
+}
+
+.label {
+  cursor: grab;
+}
+
+label {
+  display: inline-block; 
+  text-align: left; 
+  margin-left: 10px; 
+  
+}
+#yearDiv,#compareDiv, #pollutantDiv {
+  float: left;
+  margin-right: 10px;
+}
+
+#text1, #text2, #text3 {
+    margin: 10px;
+  }
