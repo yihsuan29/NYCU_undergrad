@@ -4,7 +4,7 @@ In this homework, your goal is to implement a web-based parallel coordinate plot
 
 ## Result
 link: https://vizhub.com/yihsuan29/10ae1da0017c42fab791624ecfebc500
-![image](https://hackmd.io/_uploads/SkKYqnWhC.png)
-Change the order of the axis
-![image](https://hackmd.io/_uploads/rymiq2-h0.png)
+![image](https://github.com/user-attachments/assets/5e8ee355-a8fc-4bab-9235-575f5b3ffa90)
+![image](https://github.com/user-attachments/assets/85a15f53-2cd0-4460-bbfe-5b2f35c75273)
+
 
