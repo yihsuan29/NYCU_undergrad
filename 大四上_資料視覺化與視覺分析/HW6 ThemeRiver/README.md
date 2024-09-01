@@ -24,9 +24,11 @@ Additional Techniques: Feel free to introduce other design methodologies that ca
 
 ## Result
 link: https://vizhub.com/yihsuan29/2671482c944141c4b1f1f0dbcf218b28
-![image](https://hackmd.io/_uploads/H1_4c6W3C.png)
+![image](https://github.com/user-attachments/assets/b46c8180-27f7-4c8e-89bb-8181e20caecb)
 
+![image](https://github.com/user-attachments/assets/309d083c-181b-4af9-a8bb-0c3cc2fde51d)
 
+![image](https://github.com/user-attachments/assets/b411be28-94d7-490d-9631-c9be910cef5f)
 
 
 
