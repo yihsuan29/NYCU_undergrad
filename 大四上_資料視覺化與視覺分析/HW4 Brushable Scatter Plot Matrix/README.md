@@ -4,9 +4,10 @@ For your upcoming assignment, you are to construct brushable scatter plot matric
 
 ## Result
 link: https://vizhub.com/yihsuan29/5040e7ce2fda43cc9d9cc1cae2831d0e
-![image](https://hackmd.io/_uploads/Hkzhv6WnC.png)
-![image](https://hackmd.io/_uploads/rJcADp-h0.png)
-![image](https://hackmd.io/_uploads/HyfydTW3A.png)
+![image](https://github.com/user-attachments/assets/5effdb3d-4f19-459f-a591-bb72491cc7ab)
+![image](https://github.com/user-attachments/assets/93b73c92-4ee8-4121-a650-86ca8256a5d4)
+
+![image](https://github.com/user-attachments/assets/3651932a-92d2-475b-a1da-04b4c124b631)
 
 
 
