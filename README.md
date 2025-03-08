@@ -6,7 +6,7 @@
 - **跨域學程**：金融科技  
 - **GPA**：4.27  
 - **排名**：1/38（2.63%）  
-- **交換經歷**：曾於比利時 KU Leuven, Faculty of Business and Economics 修讀一學期
+- **交換經歷**：曾於比利時 KU Leuven, Faculty of  Economics and Business 修讀一學期
 
 ## 📂 課程作業分類  
 
